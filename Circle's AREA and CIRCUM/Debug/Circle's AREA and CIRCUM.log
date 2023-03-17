@@ -1,0 +1,32 @@
+﻿Build started 4.10.2013 17:35:42.
+     1>Project "F:\CEN133-SOFTWARE ENGINEER\PROJECTS\Circle's AREA and CIRCUM\Circle's AREA and CIRCUM\Circle's AREA and CIRCUM.vcxproj" on node 2 (rebuild target(s)).
+     1>PrepareForBuild:
+         Creating directory "F:\CEN133-SOFTWARE ENGINEER\PROJECTS\Circle's AREA and CIRCUM\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\Circle's AREA and CIRCUM.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D "WIN32" /D _DEBUG /D _CONSOLE /D "_UNICODE" /D "UNICODE" /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt "..\..\Circle's AREA and CIRCUM\Circle's AREA and CIRCUM\Circle.c"
+         Circle.c
+     1>f:\cen133-software engineer\projects\circle's area and circum\circle's area and circum\circle.c(13): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Circle's AREA and CIRCUM.exe.embed.manifest.res" "Debug\Circle's AREA and CIRCUM_manifest.rc" 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\CEN133-SOFTWARE ENGINEER\PROJECTS\Circle's AREA and CIRCUM\Debug\Circle's AREA and CIRCUM.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Circle's AREA and CIRCUM.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\CEN133-SOFTWARE ENGINEER\PROJECTS\Circle's AREA and CIRCUM\Debug\Circle's AREA and CIRCUM.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\CEN133-SOFTWARE ENGINEER\PROJECTS\Circle's AREA and CIRCUM\Debug\Circle's AREA and CIRCUM.lib" /MACHINE:X86 "Debug\Circle's AREA and CIRCUM.exe.embed.manifest.res"
+         Debug\Circle.obj
+       Manifest:
+         Deleting file "Debug\Circle's AREA and CIRCUM.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Circle's AREA and CIRCUM.exe.embed.manifest" /manifest "Debug\Circle's AREA and CIRCUM.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Circle's AREA and CIRCUM.exe.embed.manifest.res" "Debug\Circle's AREA and CIRCUM_manifest.rc" 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\CEN133-SOFTWARE ENGINEER\PROJECTS\Circle's AREA and CIRCUM\Debug\Circle's AREA and CIRCUM.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Circle's AREA and CIRCUM.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\CEN133-SOFTWARE ENGINEER\PROJECTS\Circle's AREA and CIRCUM\Debug\Circle's AREA and CIRCUM.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\CEN133-SOFTWARE ENGINEER\PROJECTS\Circle's AREA and CIRCUM\Debug\Circle's AREA and CIRCUM.lib" /MACHINE:X86 "Debug\Circle's AREA and CIRCUM.exe.embed.manifest.res"
+         Debug\Circle.obj
+         Circle's AREA and CIRCUM.vcxproj -> F:\CEN133-SOFTWARE ENGINEER\PROJECTS\Circle's AREA and CIRCUM\Debug\Circle's AREA and CIRCUM.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Circle's AREA and CIRCUM.unsuccessfulbuild".
+         Touching "Debug\Circle's AREA and CIRCUM.lastbuildstate".
+     1>Done Building Project "F:\CEN133-SOFTWARE ENGINEER\PROJECTS\Circle's AREA and CIRCUM\Circle's AREA and CIRCUM\Circle's AREA and CIRCUM.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.62
